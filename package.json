@@ -1,0 +1,20 @@
+{
+  "name": "codebase-maintainer",
+  "version": "1.0.0",
+  "description": "代码库维护助手 - 长程智能体",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node test/index.ts"
+  },
+  "dependencies": {
+    "my-agent-framework": "file:../",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
